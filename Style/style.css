@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+}
+
+
+#brand{
+    font-weight: bold;
+}
+#span-hi{
+    
+    
+    color: #FFD523;
+}
+/* Home Section */
+#home{
+    
+    
+    background-color: #2C2E43;
+}
+.row{
+    margin: 0;
+    padding-bottom: 220px;
+}
+#skills-row,#about-row,#working-row{
+    padding-top: 150px;
+}
+#h1{
+    letter-spacing: 3;
+    color: #B2B1B9;
+    line-height: 1;
+    font-size: 66.4px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#hr{
+    
+    position: relative;
+    bottom: 26px;
+    border: 1px solid #FFD523;
+    
+}
+.sub-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15;
+    position: relative;
+    bottom: 40px;
+    color: #fff;
+    margin: 0;
+}
+#btn{
+    position: relative;
+    bottom: 26px;
+}
+
+
+.home-img{
+    width: 450px;
+}
+#col-heading,#col-img{
+    padding-top: 4.5rem;
+}
+
+/* Skills Section */
+
+#skills{
+    
+    background-color:#595260;
+    
+}
+.skills-heading{
+    margin-left: 15px;
+    font-family: 'Bebas Neue', cursive;
+    color: #FFD523;
+}
+.skills-subheading{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+    color: #fff;
+    width: 360px;
+}
+.fab{
+    margin-left: 15px;
+    color: #2C2E43;
+}
+.skills-img{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 450px;
+}
+
+
+/* About Section */
+#about{
+    background-color: #2C2E43;
+}
+.about-img{
+    margin-top: 50px;
+    width: 450px;
+}
+.about-heading{
+    font-family: 'Bebas Neue', cursive;
+    color: #FFD523;
+}
+.about-subheading{
+    font-family: 'Montserrat', sans-serif;
+    width: 360px;
+    color: #fff;
+}
+
+
+/* Working Section */
+
+#working{
+    background-color: #595260;
+}
+.working-img{
+    margin-top: 50px;
+    width: 450px;
+}
+.working-heading{
+    margin-top: 5rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #FFD523;
+}
+.working-subheading{
+    font-family: 'Montserrat', sans-serif;
+    width: 360px;
+    color: #fff;
+}
+
+/* Contact me Section */
+
+#contact{
+    background-color: #2C2E43;
+}
+
+#box{
+    background-color: #FFD523;
+    height: 600px;
+    width: 450px;
+}
+.contact-heading{
+    padding-top: 25px;
+    margin-left: 5rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #2C2E43;
+}
+
+.form-control{
+    margin-left: 80px;
+}
+#textarea{
+    max-height: 200px;
+    resize: none;
+}
+#submit{
+    display: block;
+    margin-left: 5rem;
+}
+
+
+
+
+
+@media screen  and (max-width:991px){
+    #box{
+        position: relative;
+        left: 12rem;
+        
+    }
+    
+}
+
+@media screen and (max-width:595px){
+    #box{
+        position: relative;
+        left: 5rem;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:695px) {
+    #box{
+        position: relative;
+        left: 5rem;
+        
+    }
+    
+}
+
+.sm-links{
+    margin: 100px auto auto 68px;
+}
+
